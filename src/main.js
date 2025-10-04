@@ -35,6 +35,8 @@ const validated = (element) => {
         let overText =  element.innerText.substr(maxLength)
         overText = `<span class = 'hightlight'> ${overText} </span>`
         text = element.innerText.substr(0, maxLength) + overText;
+        readonlyInput.style.zIndex = '1';
+        counter.style.color = '#e0245e'
     }
     else {
 
