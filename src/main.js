@@ -10,6 +10,10 @@ editableInput.onfocus = () => {
     placeholder.style.color = '#98a5b1'
 }
 
+editableInput.onblur  = () => {
+    placeholder.style.color = '#98a5b1'
+}
+
 const validated = (element) => {
     let text ;
     let maxLength = 100
