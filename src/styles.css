@@ -104,3 +104,10 @@ body {
     font-weight: 600;
     margin-left: 7px;
 }
+
+.bottom {
+    display: flex;
+    margin-top: 13px;
+    align-items: center;
+    justify-content: space-between;
+}
