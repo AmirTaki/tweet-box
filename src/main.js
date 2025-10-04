@@ -37,6 +37,7 @@ const validated = (element) => {
         text = element.innerText.substr(0, maxLength) + overText;
         readonlyInput.style.zIndex = '1';
         counter.style.color = '#e0245e'
+        button.classList.remove('active')
     }
     else {
 
