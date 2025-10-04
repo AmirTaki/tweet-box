@@ -80,4 +80,8 @@ body {
     margin: 15px 0;
     display: inline-flex;
     align-items: center;
+    padding: 7px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background .2s ease;
 }
