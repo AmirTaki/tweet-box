@@ -10,6 +10,12 @@ editableInput.onfocus = () => {
     placeholder.style.color = '#98a5b1'
 }
 
+const validated = (element) => {
+    let text ;
+    let maxLength = 100
+} 
+
+
 editableInput.onkeyup = (e) => {
     validated(e.target)
 }
