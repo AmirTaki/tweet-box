@@ -111,3 +111,15 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
+.bottom .icons {
+    display: inline-flex;
+}
+.icons li {
+    list-style:     none;
+    color: #1da1f2;
+    font-size: 20px;
+    margin: 0 2px;
+    height: 38px;
+    width: 38px;
+}
