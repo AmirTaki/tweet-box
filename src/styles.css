@@ -36,3 +36,7 @@ body {
     max-width: 170px;
     overflow-y: auto;
 }
+
+.tweet-area::-webkit-scrollbar {
+    width: 0;
+}
