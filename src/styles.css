@@ -30,7 +30,7 @@ body {
     box-shadow: 0 10px 15px rgba(0, 0, 0, .1);
 }
 
-.input-box {
+.input-box .tweet-area{
     position: relative;
     min-height: 130px;
     max-width: 170px;
