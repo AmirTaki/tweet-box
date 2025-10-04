@@ -40,7 +40,8 @@ const validated = (element) => {
         button.classList.remove('active')
     }
     else {
-
+        readonlyInput.style.zIndex = '-1'
+        counter.style.color = '#333'
     }
 
 } 
