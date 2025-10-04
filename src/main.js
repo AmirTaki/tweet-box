@@ -23,6 +23,7 @@ const validated = (element) => {
     else {
         placeholder.style.display = 'none'
         counter.style.display = 'block'
+        button.classList.add('active')
     }
 
 } 
