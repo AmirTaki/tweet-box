@@ -33,7 +33,7 @@ const validated = (element) => {
     counter.innerHTML = maxLength - currentlength;
     if(currentlength > maxLength) {
         let overText =  element.innerText.substr(maxLength)
-        overText = ``
+        overText = `<span class = 'hightlight'> ${overText} </span>`
     }
     else {
 
