@@ -18,6 +18,7 @@ const validated = (element) => {
     if(currentlength <= 0){
         placeholder.style.display = 'block'
         counter.style.display = 'none'
+        button.classList.remove('active')
     }
 
 } 
