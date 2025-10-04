@@ -30,6 +30,11 @@ body {
     box-shadow: 0 10px 15px rgba(0, 0, 0, .1);
 }
 
+.input-box {
+    padding-top: 10px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
 .input-box .tweet-area{
     position: relative;
     min-height: 130px;
