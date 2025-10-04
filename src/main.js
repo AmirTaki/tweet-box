@@ -13,6 +13,7 @@ editableInput.onfocus = () => {
 const validated = (element) => {
     let text ;
     let maxLength = 100
+    let currentlength = element.innerText.length;
 } 
 
 
