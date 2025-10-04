@@ -122,4 +122,10 @@ body {
     margin: 0 2px;
     height: 38px;
     width: 38px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background .2 ease;
 }
