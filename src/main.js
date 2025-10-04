@@ -1,5 +1,5 @@
-const wrapper = document.querySelector('')
-const wrapper = document.querySelector('')
+const wrapper = document.querySelector('.wrapper')
+const editableInput = document.querySelector('.editable')
 const wrapper = document.querySelector('')
 const wrapper = document.querySelector('')
 const wrapper = document.querySelector('')
