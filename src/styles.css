@@ -29,3 +29,10 @@ body {
     padding: 25px 25px 15px 25px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, .1);
 }
+
+.input-box {
+    position: relative;
+    min-height: 130px;
+    max-width: 170px;
+    overflow-y: auto;
+}
