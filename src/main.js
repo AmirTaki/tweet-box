@@ -30,6 +30,11 @@ const validated = (element) => {
         button.classList.add('active')
     }
 
+    counter.innerHTML = maxLength - currentlength;
+    if(currentlength > maxLength) {
+        
+    }
+
 } 
 
 
