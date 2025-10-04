@@ -43,7 +43,7 @@ const validated = (element) => {
         readonlyInput.style.zIndex = '-1'
         counter.style.color = '#333'
     }
-
+    readonlyInput.innerHTML = text
 } 
 
 
