@@ -48,3 +48,11 @@ body {
     color: #98A5B1;
     pointer-events: none;
 }
+
+.tweet-area .input {
+    outline: none;
+    font-size: 17px;
+    min-height: inherit;
+    word-wrap: break-word;
+    word-break: break-all;
+}
