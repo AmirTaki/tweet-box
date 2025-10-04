@@ -162,7 +162,11 @@ body {
     transition: background .2s ease;
 }
 
-.bottom button.acitve {
-    opacity: 1;
+.bottom button.active {
+    opacity: 1 !important;
     pointer-events: auto;
+   
 }
+
+.bottom button:hover {
+    background: #0d8db9 ;}
