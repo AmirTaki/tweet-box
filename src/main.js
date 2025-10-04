@@ -34,6 +34,7 @@ const validated = (element) => {
     if(currentlength > maxLength) {
         let overText =  element.innerText.substr(maxLength)
         overText = `<span class = 'hightlight'> ${overText} </span>`
+        text = element.innerText.substr(0, maxLength) + overText;
     }
     else {
 
