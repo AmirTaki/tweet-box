@@ -20,6 +20,10 @@ const validated = (element) => {
         counter.style.display = 'none'
         button.classList.remove('active')
     }
+    else {
+        placeholder.style.display = 'none'
+        counter.style.display = 'block'
+    }
 
 } 
 
