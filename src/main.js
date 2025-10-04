@@ -32,3 +32,8 @@ const validated = (element) => {
 editableInput.onkeyup = (e) => {
     validated(e.target)
 }
+
+editableInput.onkeypress = (e) => {
+    validated(e.target)
+    placeholder.style.display = 'none'
+}
