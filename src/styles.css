@@ -74,3 +74,10 @@ body {
 .readonly .hightlight{
     background: #fd9bb0;
 }
+
+.input-box .privacy {
+    color: #1da1f2;
+    margin: 15px 0;
+    display: inline-flex;
+    align-items: center;
+}
