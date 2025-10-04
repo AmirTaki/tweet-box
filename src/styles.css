@@ -70,3 +70,7 @@ body {
     color : transparent;
     background: transparent;
 }
+
+.readonly .hightlight{
+    background: #fd9bb0;
+}
