@@ -161,3 +161,8 @@ body {
     pointer-events: none;
     transition: background .2s ease;
 }
+
+.bottom button.acitve {
+    opacity: 1;
+    pointer-events: auto;
+}
