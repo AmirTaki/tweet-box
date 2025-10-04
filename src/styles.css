@@ -20,3 +20,12 @@ body {
     color: #fff;
     background: #1da1f2;
 }
+
+.wrapper {
+    background: #fff;
+    max-width: 475px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 25px 25px 15px 25px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .1);
+}
