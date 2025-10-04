@@ -129,3 +129,18 @@ body {
     border-radius: 50%;
     transition: background .2 ease;
 }
+
+
+.bottom .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bottom .counter {
+    color: #333;
+    display: none;
+    font-weight: 500;
+    
+}
