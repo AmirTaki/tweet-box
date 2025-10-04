@@ -32,7 +32,11 @@ const validated = (element) => {
 
     counter.innerHTML = maxLength - currentlength;
     if(currentlength > maxLength) {
-        
+        let overText =  element.innerText.substr(maxLength)
+        overText = ``
+    }
+    else {
+
     }
 
 } 
