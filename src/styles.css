@@ -56,3 +56,8 @@ body {
     word-wrap: break-word;
     word-break: break-all;
 }
+
+.tweet-area .editable {
+    position: relative;
+    z-index: 5;
+}
