@@ -9,3 +9,7 @@ const button = document.querySelector('button')
 editableInput.onfocus = () => {
     placeholder.style.color = '#98a5b1'
 }
+
+editableInput.onkeyup = (e) => {
+    validated(e.target)
+}
